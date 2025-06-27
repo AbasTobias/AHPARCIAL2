@@ -1,0 +1,3 @@
+PORT=3000
+MONGO_URI=mongodb+srv://tobiasabas:VcFvLnAPeLYnz2hi@cluster0.xppqydo.mongodb.net/CafeEcommerce?retryWrites=true&w=majority
+SECRET_KEY =Romagnoli

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>APIREST de Café</title>
+  <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+    <script src="charge.js"></script>
+  <header>
+    <h1>Cafe API REST</h1>
+    <p>Esta es un API REST DEL CAFE</p>
+  </header>
+
+  <div id="loading-screen" class="loading-screen">
+    <div class="cafe-cup">
+        <div class="cafe"></div>
+    </div>
+    <p>Potenciando Cafes</p>
+</div>
+
+
+  <main>
+    <div class="container">
+      
+      <div class="card">
+        <h2>Ver todos los cafés</h2>
+        <p>Método:<strong> GET</p> </strong>
+        <p>Endpoint: <code>/api/cafes</code></p>
+      </div>
+
+      <div class="card">
+        <h2>Obtener café por ID</h2>
+        <p>Método: <strong> GET</p></strong>
+        <p>Endpoint: <code>/api/cafes/:id</code></p>
+      </div>
+
+      <div class="card">
+        <h2>Buscar café por país</h2>
+        <p>Método:<strong>  GET</p></strong>
+        <p>Endpoint: <code>/api/cafes/pais/Italia</code></p>
+      </div>
+
+      <div class="card">
+        <h2>Filtrar cafés por peso</h2>
+        <p>Método: <strong>GET</strong></p>
+        <p>Endpoint: <code>api/cafes/peso/250g</code></p>
+    </div>
+    
+    
+    <div class="card">
+        <h2>Filtrar cafés por categoría</h2>
+        <p>Método: <strong>GET</strong></p>
+        <p>Endpoint: <code>api/cafes/categoria/Espresso</code></p>
+    </div>
+    
+
+    <div class="card">
+      <h2>Obtener Café por nombre</h2>
+      <p>Método:<strong> </p> GET </strong>
+      <p>Endpoint <code>/api/cafes/nombre/Latte</code> </p>
+    </div>
+
+      <div class="card">
+        <h2>Crear un café</h2>
+        <p>Método:<strong>  POST</p></strong>
+        <p>Endpoint: <code>/api/cafes</code></p>
+      </div>
+
+      <div class="card">
+        <h2>Actualizar un café</h2>
+        <p>Método:<strong>  PUT</p></strong>
+        <p>Endpoint: <code>/api/cafes/:id</code></p>
+      </div>
+
+      <div class="card">
+        <h2>Eliminar un café</h2>
+        <p>Método:<strong>  DELETE</p></strong> 
+        <p>Endpoint: <code>/api/cafes/:id</code></p>
+      </div>
+
+      
+    
+
+    </div>
+  </main>
+
+  <footer>
+    <p>Alumno: Tobias Abas</p>
+    <p>Materia: Aplicaciones Híbridas - Docente: Jhonatan Cruz</p>
+    <p>Código de comisión: DWM4AP</p>
+  </footer>
+
+</body>
+</html>
